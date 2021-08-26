@@ -19,7 +19,7 @@ Detect if someone has diabetes using Machine Learning and Pyhton!
 #image=Image.open()
 image=Image.open('dd.jpg')
 image_style = {'width': '100%', 'height':'70%', 'border': '1px solid black'}
-st.image(image, caption='ML', style=image_style)
+st.image(image)
 
 #Get the data
 df=pd.read_csv('diabetes_csv.csv')
